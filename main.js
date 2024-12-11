@@ -157,7 +157,7 @@ function loadModel(path, scale, position, rotation) {
 // Load all models with custom settings
 loadModel('public/Lots of hearts.glb', 500, [0, -2.2, 0], [0, 0, 0]);   // 10x bigger
 loadModel('public/Rose.glb', 100, [1.8, -1, -2], [0, Math.PI / 4, 0]);  // Adjusted position and rotation
-loadModel('public/Heart Eyes Face.glb', 75, [-2, -1, 1], [0, -Math.PI / 6, 0]); // New model
+loadModel('public`/Heart Eyes Face.glb', 75, [-2, -1, 1], [0, -Math.PI / 6, 0]); // New model
 // RESIZE
 window.addEventListener( 'resize', onWindowResize );
 
